@@ -1,3 +1,5 @@
+SELECT DISTINCT neighborhood FROM listings
+ORDER BY neighborhood ASC; 
 -- What are all the neighborhoods, alphabetically?
 
 -- +------------------------+

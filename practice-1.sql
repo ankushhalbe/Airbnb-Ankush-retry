@@ -1,3 +1,5 @@
+SELECT COUNT(*) FROM reviews
+
 -- How many reviews are there?
 
 -- +----------+

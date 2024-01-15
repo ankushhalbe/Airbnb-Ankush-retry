@@ -1,3 +1,7 @@
+SELECT property_type, COUNT(*), date_reviewed from reviews
+INNER JOIN listings ON reviews.listing_id=listings.id 
+GROUP BY property_type;
+
 -- What is the number of reviews and date of the latest review, by property type?
 
 -- +-------------------------------------+----------+----------------------------+

@@ -1,3 +1,6 @@
+SELECT url, accommodates FROM listings
+WHERE "accommodates" = 16;
+
 -- Can I see the AirBnb URL for all rentals that can accommodate my group of 16?
 
 -- +---------------------------------------+--------------+
